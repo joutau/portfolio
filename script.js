@@ -71,7 +71,7 @@
         {
             id: 'camp-pps', title: 'PPS (Pražské popelářské služby) – Visual Identity', category: 'Campaigns', caseStudy: true, year: '2022',
             description: 'Fictional brand with complete identity system: logo, color, typography.',
-            Role: 'complex branding/identity', Nástroje: ['Adobe Illustrator','Adobe InDesign'], outcome: 'Coherent brand guide and assets.',
+            Role: 'Grafik', Nástroje: ['Adobe Illustrator','Adobe InDesign'], outcome: 'Coherent brand guide and assets.',
             folder: 'assets/PPS', files: [
                 'banner1.png','banner2.png','banner3.png',
                 'mockup1.png','mockup2.png','mockup3.png','mockup4.png','mockup5.png',

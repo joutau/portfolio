@@ -104,6 +104,22 @@
             images: [], links: {}
         },
         {
+            id: 'vid-mezi', title: 'Mezi Zdmi - Dokument', category: 'Video&Game',
+            description: 'Dokumentární film Mezi Zdmi.',
+            role: 'director', tools: ['DaVinci Resolve','Premiere Pro'], outcome: '',
+            videoUrl: 'https://www.youtube.com/watch?v=nDyv7YVN5Lw',
+            thumb: 'https://img.youtube.com/vi/nDyv7YVN5Lw/hqdefault.jpg',
+            images: [], links: {}
+        },
+        {
+            id: 'vid-synteza', title: 'Syntéza - Reportáž', category: 'Video&Game',
+            description: 'Reportáž Syntéza.',
+            role: 'director', tools: ['DaVinci Resolve','Premiere Pro'], outcome: '',
+            videoUrl: 'https://www.youtube.com/watch?v=F6IqYw3F4_g',
+            thumb: 'https://img.youtube.com/vi/F6IqYw3F4_g/hqdefault.jpg',
+            images: [], links: {}
+        },
+        {
             id: 'game-contrib', title: 'Indie Game – contribution', category: 'Video&Game',
             description: 'Visual assets and UI polish for a small game.',
             role: 'graphic design', tools: ['Photoshop','Illustrator'], outcome: 'Cleaner UI and asset pipeline.',

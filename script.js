@@ -90,12 +90,6 @@
 
         // Video & Game (work cards)
         {
-            id: 'vid-anim', title: 'Animation Short – process shots', category: 'Video&Game',
-            description: 'Exploring motion principles in short sequences.',
-            role: 'animation', tools: ['After Effects','DaVinci Resolve'], outcome: 'Improved timing and easing.',
-            images: ['assets/thumbs/placeholder.svg'], thumb: placeholderThumb, links: {}
-        },
-        {
             id: 'vid-cowboy', title: 'Cowboy Stuff - Animace', category: 'Video&Game',
             description: 'Krátká animace Cowboy Stuff.',
             role: 'animation', tools: ['After Effects','DaVinci Resolve'], outcome: '',

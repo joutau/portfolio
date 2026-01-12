@@ -19,7 +19,7 @@
             links: {}
         },
         {
-            id: '3d-3', title: 'CONCEPT ART GUN', category: '3D',
+            id: '3d-3', title: 'Concept art - Gun', category: '3D',
             description: 'Model zbraně navržené na základě vlastního concept artu.',
             Role: '3D graphics', Nástroje: ['Blender'], outcome: 'Reusable material library.',
             folder: 'assets/3D/GUN', files: ['Untitled.png', 'Untitled2.png'], thumb: 'assets/3D/GUN/Untitled.png',

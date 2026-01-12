@@ -5,11 +5,11 @@
     const portfolioItems = [
         // 3D graphics
         {
-            id: '3d-1', title: '3D Model: Industrial Light', category: '3D',
-            description: 'Hard-surface practice piece focusing on materials and lighting.',
+            id: '3d-1', title: 'ArchViz - Liminální prostor', category: '3D',
+            description: 'Architektonická vizualizace liminálního prostoru.',
             Role: '3D graphics', Nástroje: ['Blender'], outcome: 'Improved hard-surface workflow.',
-            images: ['assets/3d/industrial-light-1.jpg','assets/3d/industrial-light-2.jpg'],
-            thumb: placeholderThumb, links: {}
+            folder: 'assets/3D/ARCHVIZ', extension: 'png', thumb: 'assets/3D/ARCHVIZ/1.png',
+            links: {}
         },
         {
             id: '3d-2', title: '3D Scene: Minimal Interior', category: '3D',

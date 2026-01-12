@@ -227,8 +227,8 @@
         lastFocus = document.activeElement;
         modalTitle.textContent = item.title;
         modalDesc.textContent = item.description;
-        modalRole.textContent = item.role;
-        modalTools.textContent = (item.tools || []).join(', ');
+        modalRole.textContent = item.Role || item.role || '';
+        modalTools.textContent = (item.Nástroje || item.tools || []).join(', ');
         modalLinks.innerHTML = '';
         if (item.links) {
             Object.entries(item.links).forEach(([key, href]) => {

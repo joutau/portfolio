@@ -7,21 +7,21 @@
         {
             id: '3d-1', title: '3D Model: Industrial Light', category: '3D',
             description: 'Hard-surface practice piece focusing on materials and lighting.',
-            role: '3D graphics', tools: ['Blender'], outcome: 'Improved hard-surface workflow.',
+            Role: '3D graphics', Nástroje: ['Blender'], outcome: 'Improved hard-surface workflow.',
             images: ['assets/3d/industrial-light-1.jpg','assets/3d/industrial-light-2.jpg'],
             thumb: placeholderThumb, links: {}
         },
         {
             id: '3d-2', title: '3D Scene: Minimal Interior', category: '3D',
             description: 'Composition and light study in a simple interior.',
-            role: '3D graphics', tools: ['Blender'], outcome: 'Balanced composition and light.',
+            Role: '3D graphics', Nástroje: ['Blender'], outcome: 'Balanced composition and light.',
             images: ['assets/3d/minimal-interior-1.jpg','assets/3d/minimal-interior-2.jpg'],
             thumb: placeholderThumb, links: {}
         },
         {
             id: '3d-3', title: 'Procedural Materials', category: '3D',
             description: 'Set of procedural materials for quick lookdev.',
-            role: '3D graphics', tools: ['Blender'], outcome: 'Reusable material library.',
+            Role: '3D graphics', Nástroje: ['Blender'], outcome: 'Reusable material library.',
             images: ['assets/3d/proc-mat-1.jpg'], thumb: placeholderThumb, links: {}
         },
 
@@ -29,19 +29,19 @@
         {
             id: 'poster-1', title: 'Poster: Kvartet Plamenomet + BackStep', category: 'Posters',
             description: 'Poster design pro koncert Kvartet Plamenomet a BackStep.',
-            role: 'Grafik', tools: ['Adobe Illustrator','Adobe Photoshop','Blender'], outcome: 'Eye-catching poster design.',
+            Role: 'Grafik', Nástroje: ['Adobe Illustrator','Adobe Photoshop','Blender'], outcome: 'Eye-catching poster design.',
             images: ['assets/POSTERS/kvartetbackstep.jpg'], thumb: 'assets/POSTERS/kvartetbackstep.jpg', links: {}
         },
         {
             id: 'poster-2', title: 'Poster: Kvartet Plamenomet + Shizzle Orchestra', category: 'Posters',
             description: 'Poster design pro koncert Kvartet Plamenomet a Shizzle Orchestra.',
-            role: 'Grafik', tools: ['Adobe Illustrator'], outcome: 'Eye-catching poster design.',
+            Role: 'Grafik', Nástroje: ['Adobe Illustrator'], outcome: 'Eye-catching poster design.',
             images: ['assets/POSTERS/kvartetshizzle.jpg'], thumb: 'assets/POSTERS/kvartetshizzle.jpg', links: {}
         },
         {
             id: 'poster-3', title: 'Poster: Death Grips Berlin', category: 'Posters',
             description: 'Poster design pro koncert Death Grips v Berlíně.',
-            role: 'Grafik', tools: ['Adobe Illustrator'], outcome: 'Energetický plakát s výraznou typografií.',
+            Role: 'Grafik', Nástroje: ['Adobe Illustrator'], outcome: 'Energetický plakát s výraznou typografií.',
             images: ['assets/POSTERS/deathgrips.jpg'], thumb: 'assets/POSTERS/deathgrips.jpg', links: {}
         },
 
@@ -49,21 +49,21 @@
         {
             id: 'camp-ecomail', title: 'Ecomail Campaign', category: 'Campaigns', caseStudy: true, year: '2024',
             description: 'Marketingové vizuály zaměřené na srozumitelnost a přehlednost.',
-            role: 'Grafik', tools: ['Adobe Photoshop','Adobe Illustrator'], outcome: 'Consistent visual set increasing engagement.',
+            Role: 'Grafik', Nástroje: ['Adobe Photoshop','Adobe Illustrator'], outcome: 'Consistent visual set increasing engagement.',
             folder: 'assets/ECOMAIL', pattern: 'EcomailPrezentace2_{i}', extension: 'jpg', thumb: 'assets/ECOMAIL/EcomailPrezentace2_1.jpg',
             links: {}
         },
         {
             id: 'camp-fis', title: 'VŠE Green FIS Campaign', category: 'Campaigns', caseStudy: true, year: '2023',
             description: 'University faculty campaign emphasizing information architecture.',
-            role: 'graphic design', tools: ['Adobe InDesign','Adobe Illustrator'], outcome: 'Unified look across materials.',
+            Role: 'Grafik', Nástroje: ['Adobe InDesign','Adobe Illustrator'], outcome: 'Unified look across materials.',
             folder: 'assets/CSR', pattern: 'CSR-prez-nahled_{i}', extension: 'jpg', thumb: 'assets/CSR/CSR-prez-nahled_1.jpg',
             links: {}
         },
         {
             id: 'camp-pps', title: 'PPS (Pražské popelářské služby) – Visual Identity', category: 'Campaigns', caseStudy: true, year: '2022',
             description: 'Fictional brand with complete identity system: logo, color, typography.',
-            role: 'complex branding/identity', tools: ['Adobe Illustrator','Adobe InDesign'], outcome: 'Coherent brand guide and assets.',
+            Role: 'complex branding/identity', Nástroje: ['Adobe Illustrator','Adobe InDesign'], outcome: 'Coherent brand guide and assets.',
             folder: 'assets/PPS', files: [
                 'banner1.png','banner2.png','banner3.png',
                 'mockup1.png','mockup2.png','mockup3.png','mockup4.png','mockup5.png',
@@ -74,25 +74,17 @@
         {
             id: 'camp-jezevec', title: 'Vizuál filmu pro Donio - Jezevec', category: 'Campaigns', caseStudy: true, year: '2021',
             description: 'Vizuál filmu v souladu s jeho tónem a poselstvím.',
-            role: 'Grafik', tools: ['Adobe Illustrator','Adobe Photoshop'], outcome: 'Consistent visuals for outreach.',
+            Role: 'Grafik', Nástroje: ['Adobe Illustrator','Adobe Photoshop'], outcome: 'Consistent visuals for outreach.',
             folder: 'assets/JEZEVEC', extension: 'png', thumb: 'assets/JEZEVEC/1.png',
             links: {}
         },
 
-        // Photo (company functi-on)
-        {
-            id: 'photo-functi', title: 'Photography • company “functi-on”', category: 'Photo',
-            description: 'Product and team photos for brand storytelling.',
-            role: 'photographer', tools: ['Camera','Lightroom'], outcome: 'Cohesive photo set for web and print.',
-            images: ['assets/photo/func-1.jpg','assets/photo/func-2.jpg','assets/photo/func-3.jpg','assets/photo/func-4.jpg'],
-            thumb: placeholderThumb, links: {}
-        },
 
         // Video & Game (work cards)
         {
             id: 'vid-cowboy', title: 'Cowboy Stuff - Animace', category: 'Video&Game',
             description: 'Krátká animace Cowboy Stuff.',
-            role: 'animation', tools: ['After Effects','DaVinci Resolve'], outcome: '',
+            Role: 'animation', Nástroje: ['After Effects','DaVinci Resolve'], outcome: '',
             videoUrl: 'https://www.youtube.com/watch?v=ZYn0Ihbhkpk',
             thumb: 'https://img.youtube.com/vi/ZYn0Ihbhkpk/hqdefault.jpg',
             images: [], links: {}
@@ -100,7 +92,7 @@
         {
             id: 'vid-mezi', title: 'Mezi Zdmi - Dokument', category: 'Video&Game',
             description: 'Dokumentární film Mezi Zdmi.',
-            role: 'director', tools: ['DaVinci Resolve','Premiere Pro'], outcome: '',
+            Role: 'Režie', Nástroje: ['DaVinci Resolve','Premiere Pro'], outcome: '',
             videoUrl: 'https://www.youtube.com/watch?v=nDyv7YVN5Lw',
             thumb: 'https://img.youtube.com/vi/nDyv7YVN5Lw/hqdefault.jpg',
             images: [], links: {}
@@ -108,7 +100,7 @@
         {
             id: 'vid-synteza', title: 'Syntéza - Reportáž', category: 'Video&Game',
             description: 'Reportáž Syntéza.',
-            role: 'director', tools: ['DaVinci Resolve','Premiere Pro'], outcome: '',
+            Role: 'Režie', Nástroje: ['DaVinci Resolve','Premiere Pro'], outcome: '',
             videoUrl: 'https://www.youtube.com/watch?v=F6IqYw3F4_g',
             thumb: 'https://img.youtube.com/vi/F6IqYw3F4_g/hqdefault.jpg',
             images: [], links: {}
@@ -116,7 +108,7 @@
         {
             id: 'game-pale', title: 'Pale Trial - Videohra', category: 'Video&Game',
             description: 'Videohra The Pale Trial – příspěvek k vývoji.',
-            role: 'graphic design', tools: ['Photoshop','Illustrator'], outcome: 'Cleaner UI and asset pipeline.',
+            Role: 'Grafik', Nástroje: ['Photoshop','Illustrator'], outcome: 'Cleaner UI and asset pipeline.',
             images: ['assets/PALETRIAL/paletrial.jpg'], thumb: 'assets/PALETRIAL/paletrial.jpg', 
             links: { 'Hrát na itch.io': 'https://aristrela.itch.io/the-pale-trial' }
         }

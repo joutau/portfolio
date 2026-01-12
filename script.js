@@ -116,7 +116,7 @@
         {
             id: 'game-pale', title: 'Pale Trial - Videohra', category: 'Video&Game',
             description: 'Videohra The Pale Trial – příspěvek k vývoji.',
-            Role: 'Grafik', Nástroje: ['Photoshop','Illustrator'], outcome: 'Cleaner UI and asset pipeline.',
+            Role: 'Vývojář, Animátor', Nástroje: ['Godot','Blender'], outcome: 'Cleaner UI and asset pipeline.',
             images: ['assets/PALETRIAL/paletrial.jpg'], thumb: 'assets/PALETRIAL/paletrial.jpg', 
             links: { 'Hrát na itch.io': 'https://aristrela.itch.io/the-pale-trial' }
         }

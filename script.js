@@ -192,8 +192,10 @@
 
     function renderWork() {
         const items = portfolioItems.filter(i => currentFilter === 'All' ? true : i.category === currentFilter);
+        // Shuffle items randomly
+        const shuffled = items.sort(() => Math.random() - 0.5);
         workGrid.innerHTML = '';
-        items.forEach(item => workGrid.append(createCard(item)));
+        shuffled.forEach(item => workGrid.append(createCard(item)));
     }
 
     // Projects section removed

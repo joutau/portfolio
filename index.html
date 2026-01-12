@@ -1,90 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adam Cerha - Portfolio">
-    <title>Adam Cerha | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">Adam Cerha</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<html lang="cs" data-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Multimediální portfolio – Adam Cerha" />
+        <title>Adam Cerha • Multimediální Portfolio</title>
+        <meta name="theme-color" content="#316629" />
+        <link rel="preload" href="assets/fonts/Gopher-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="assets/fonts/Gopher-Bold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="assets/fonts/Gopher-Regular.otf" as="font" type="font/otf" crossorigin>
+        <link rel="preload" href="assets/fonts/Gopher-Bold.otf" as="font" type="font/otf" crossorigin>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <a class="skip-link" href="#work">Přejít na obsah</a>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm <span class="highlight">Adam Cerha</span></h1>
-            <p class="tagline">Developer | Designer | Problem Solver</p>
-            <a href="#projects" class="cta-button">View My Work</a>
-        </div>
-    </section>
+        <header class="site-header" role="banner">
+            <nav class="nav" aria-label="Primary">
+                <div class="brand" aria-label="Název stránky">Adam Cerha</div>
+                <ul class="nav-list" role="menubar">
+                    <li role="none"><a role="menuitem" href="#work">Práce</a></li>
+                    <li role="none"><a role="menuitem" href="#about">O mně</a></li>
+                    <li role="none"><a role="menuitem" href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <p>Welcome to my portfolio! I'm passionate about creating innovative solutions and bringing ideas to life through code.</p>
-                <p>I specialize in web development and enjoy working on projects that challenge me to learn and grow.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Project One</h3>
-                    <p>Description of your first project. What technologies did you use? What problem does it solve?</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank">View Demo</a>
-                        <a href="#" target="_blank">GitHub</a>
+        <div class="hero" id="hero" aria-labelledby="hero-title">
+            <div class="container hero-inner">
+                <div>
+                    <p class="eyebrow">Student multimédií</p>
+                    <h1 id="hero-title">Adam Cerha</h1>
+                    <p class="intro">
+                        Navrhuji v oblasti 3D grafiky, grafiky, brandingu, fotografie a videa. Čisté vizuální
+                        systémy, bílé místo a smysluplné příběhy.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn" href="assets/CV.pdf" download aria-label="Stáhnout CV jako PDF">Stáhnout CV</a>
+                        <a class="btn ghost" href="#contact">Kontakt</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <h3>Project Two</h3>
-                    <p>Description of your second project. Highlight the key features and your role.</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank">View Demo</a>
-                        <a href="#" target="_blank">GitHub</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <h3>Project Three</h3>
-                    <p>Description of your third project. What makes this project special?</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank">View Demo</a>
-                        <a href="#" target="_blank">GitHub</a>
-                    </div>
+                <div class="avatar" aria-hidden="true">
+                    <img src="assets/thumbs/placeholder.svg" alt="Zástupný obrázek avataru" />
                 </div>
             </div>
         </div>
-    </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <p>I'm always open to new opportunities and collaborations.</p>
-            <div class="contact-links">
-                <a href="mailto:your.email@example.com">Email</a>
-                <a href="https://github.com/joutau" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        <main id="main" tabindex="-1" class="container">
+            <div class="layout single">
+                <div class="main-column">
+                    <!-- Práce -->
+                    <section id="work" class="section" aria-labelledby="work-title">
+                        <div class="section-head">
+                            <h2 id="work-title">Práce</h2>
+                            <div class="filters" role="tablist" aria-label="Filtrovat práce">
+                                <button class="chip active" role="tab" aria-selected="true" data-filter="All">Vše</button>
+                                <button class="chip" role="tab" aria-selected="false" data-filter="3D">3D</button>
+                                <button class="chip" role="tab" aria-selected="false" data-filter="Posters">Plakáty</button>
+                                <button class="chip" role="tab" aria-selected="false" data-filter="Campaigns">Kampaně</button>
+                                <button class="chip" role="tab" aria-selected="false" data-filter="Photo">Foto</button>
+                                <button class="chip" role="tab" aria-selected="false" data-filter="Video&Game">Video&Hry</button>
+                            </div>
+                        </div>
+                        <div id="work-grid" class="grid" aria-live="polite"></div>
+                    </section>
+
+                    <!-- O mně -->
+                    <section id="about" class="section" aria-labelledby="about-title">
+                        <h2 id="about-title">O mně</h2>
+                        <p class="intro narrow">
+                            Student multimédií zaměřený na vizuální komunikaci v oblasti 3D, grafického designu,
+                            brandingu, fotografie a videa.
+                        </p>
+                    </section>
+
+                    <!-- Kontakt -->
+                    <section id="contact" class="section" aria-labelledby="contact-title">
+                        <h2 id="contact-title">Kontakt</h2>
+                        <div class="contact">
+                            <p>Email: <a href="mailto:cerha.adam@gmail.com">cerha.adam@gmail.com</a></p>
+                            <p class="socials">
+                                <a href="https://www.youtube.com/@adamcerha2860" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+                                <a href="https://acerha.itch.io/" target="_blank" rel="noopener" aria-label="Itch.io">Itch.io</a>
+                                <a href="https://github.com/joutau" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+
+                            </p>
+                            <form id="contact-form" class="contact-form" aria-label="Kontaktní formulář">
+                                <label>
+                                    <span>Jméno</span>
+                                    <input name="name" type="text" required />
+                                </label>
+                                <label>
+                                    <span>Email</span>
+                                    <input name="email" type="email" required />
+                                </label>
+                                <label>
+                                    <span>Zpráva</span>
+                                    <textarea name="message" rows="4" required></textarea>
+                                </label>
+                                <button type="submit" class="btn">Odeslat</button>
+                                
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!-- Modální okno pro detaily -->
+        <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-backdrop" data-close></div>
+            <div class="modal-dialog" role="document">
+                <button class="modal-close" aria-label="Zavřít" data-close>&times;</button>
+                <div class="modal-content">
+                    <div class="details">
+                        <h3 id="modal-title"></h3>
+                        <p class="modal-desc"></p>
+                        <dl class="meta">
+                            <div><dt>Role</dt><dd class="modal-role"></dd></div>
+                            <div><dt>Nástroje</dt><dd class="modal-tools"></dd></div>
+                            <div class="modal-links"></div>
+                        </dl>
+                    </div>
+                    <div class="visual">
+                        <div class="modal-gallery" aria-label="Obrázky projektu"></div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
 
-    <footer>
-        <p>&copy; 2026 Adam Cerha. All rights reserved.</p>
-    </footer>
+        <footer class="site-footer" role="contentinfo">
+            <div class="container">
+                <p>&copy; 2026 Adam Cerha</p>
+            </div>
+        </footer>
 
-    <script src="script.js"></script>
-</body>
+        <script src="script.js" defer></script>
+    </body>
 </html>

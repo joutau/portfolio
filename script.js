@@ -12,11 +12,11 @@
             links: {}
         },
         {
-            id: '3d-2', title: '3D Scene: Minimal Interior', category: '3D',
-            description: 'Composition and light study in a simple interior.',
+            id: '3d-2', title: 'Maskot - Plyšové auto', category: '3D',
+            description: '3D model plyšového auta jako maskot.',
             Role: '3D graphics', Nástroje: ['Blender'], outcome: 'Balanced composition and light.',
-            images: ['assets/3d/minimal-interior-1.jpg','assets/3d/minimal-interior-2.jpg'],
-            thumb: placeholderThumb, links: {}
+            folder: 'assets/3D/CAR', files: ['car1.png', 'car2.png'], thumb: 'assets/3D/CAR/car1.png',
+            links: {}
         },
         {
             id: '3d-3', title: 'Procedural Materials', category: '3D',

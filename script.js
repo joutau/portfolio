@@ -19,10 +19,11 @@
             links: {}
         },
         {
-            id: '3d-3', title: 'Procedural Materials', category: '3D',
-            description: 'Set of procedural materials for quick lookdev.',
+            id: '3d-3', title: 'CONCEPT ART GUN', category: '3D',
+            description: 'Model zbraně navržené na základě vlastního concept artu.',
             Role: '3D graphics', Nástroje: ['Blender'], outcome: 'Reusable material library.',
-            images: ['assets/3d/proc-mat-1.jpg'], thumb: placeholderThumb, links: {}
+            folder: 'assets/3D/GUN', files: ['Untitled.png', 'Untitled2.png'], thumb: 'assets/3D/GUN/Untitled.png',
+            links: {}
         },
 
         // Posters / graphic design

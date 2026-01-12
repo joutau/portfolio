@@ -25,6 +25,13 @@
             folder: 'assets/3D/GUN', files: ['Untitled.png', 'Untitled2.png'], thumb: 'assets/3D/GUN/Untitled.png',
             links: {}
         },
+        {
+            id: '3d-4', title: 'Charakter pro videohru', category: '3D',
+            description: 'Úprava a animace modelu nepřátelského NPC pro hru Pale Trial.',
+            Role: '3D graphics', Nástroje: ['Blender'], outcome: '',
+            folder: 'assets/3D/SPIDER', files: ['potvora.png', 'potvora2.png'], thumb: 'assets/3D/SPIDER/potvora.png',
+            links: {}
+        },
 
         // Posters / graphic design
         {

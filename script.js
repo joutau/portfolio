@@ -114,10 +114,11 @@
             images: [], links: {}
         },
         {
-            id: 'game-contrib', title: 'Indie Game – contribution', category: 'Video&Game',
-            description: 'Visual assets and UI polish for a small game.',
+            id: 'game-pale', title: 'Pale Trial - Videohra', category: 'Video&Game',
+            description: 'Videohra The Pale Trial – příspěvek k vývoji.',
             role: 'graphic design', tools: ['Photoshop','Illustrator'], outcome: 'Cleaner UI and asset pipeline.',
-            images: ['assets/thumbs/placeholder.svg'], thumb: placeholderThumb, links: {}
+            images: ['assets/thumbs/placeholder.svg'], thumb: placeholderThumb, 
+            links: { 'Hrát na itch.io': 'https://aristrela.itch.io/the-pale-trial' }
         }
     ];
 

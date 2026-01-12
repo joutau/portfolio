@@ -92,7 +92,7 @@
         {
             id: 'vid-cowboy', title: 'Cowboy Stuff - Animace', category: 'Video&Game',
             description: 'Krátká animace Cowboy Stuff.',
-            Role: 'Animátor', Nástroje: ['After Effects','Photoshop'], outcome: '',
+            Role: 'Animátor', Nástroje: ['Adobe After Effects','Adobe Photoshop'], outcome: '',
             videoUrl: 'https://www.youtube.com/watch?v=ZYn0Ihbhkpk',
             thumb: 'https://img.youtube.com/vi/ZYn0Ihbhkpk/hqdefault.jpg',
             images: [], links: {}
